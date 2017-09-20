@@ -24,6 +24,7 @@ ShowContactInfo: "False" # Personal Info (twitter,github,email) can be seen on a
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en"
 permalink: "/:year/:month/:day/:title/"
+paginate_path: "/page/:num/"
 
 locales:
     en:
