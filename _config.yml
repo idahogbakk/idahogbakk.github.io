@@ -23,7 +23,7 @@ google_analytics_key: "UA-6412130-5" # put YOUR key here to enable tracking! (bl
 ShowContactInfo: "False" # Personal Info (twitter,github,email) can be seen on aboutme-sidebar, those info only shown where ShowContactInfo == True
 default_column: "two" # blog style: two columns, if default_column != "two", you will see a one column blog.
 default_locale: "en"
-permalink: /:year/:month/:day/:title/
+permalink: "/:year/:month/:day/:title/"
 
 locales:
     en:
@@ -51,6 +51,7 @@ markdown: kramdown
 kramdown:
         input: GFM
         syntax_highlighter: rouge
+
 plugins: [jekyll-paginate]
 paginate: 5
 excerpt_separator: <!--more-->
